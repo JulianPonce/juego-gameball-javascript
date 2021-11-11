@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+    background-color: black;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+}
+
+.player {
+    width: 20px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid #ffff;
+}
+
+#player1 {
+    top: 20px;
+    float: left;
+    position: absolute;
+}
+
+#player2 {
+    top: 20px;
+    right: 0px;
+    position: absolute;
+}
+
+#linea {
+    width: 50%;
+    border-right: #ffff dashed 5px;
+    height: 100%
+}
